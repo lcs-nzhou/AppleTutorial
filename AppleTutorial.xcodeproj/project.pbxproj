@@ -11,6 +11,7 @@
 		7492B83B2B50B6730055DDAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492B83A2B50B6730055DDAF /* ContentView.swift */; };
 		7492B83D2B50B6760055DDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7492B83C2B50B6760055DDAF /* Assets.xcassets */; };
 		7492B8402B50B6760055DDAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7492B83F2B50B6760055DDAF /* Preview Assets.xcassets */; };
+		7492B8472B50B69D0055DDAF /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492B8462B50B69D0055DDAF /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7492B83A2B50B6730055DDAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7492B83C2B50B6760055DDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7492B83F2B50B6760055DDAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7492B8462B50B69D0055DDAF /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				7492B83A2B50B6730055DDAF /* ContentView.swift */,
 				7492B83C2B50B6760055DDAF /* Assets.xcassets */,
 				7492B83E2B50B6760055DDAF /* Preview Content */,
+				7492B8462B50B69D0055DDAF /* WelcomePage.swift */,
 			);
 			path = AppleTutorial;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7492B8472B50B69D0055DDAF /* WelcomePage.swift in Sources */,
 				7492B83B2B50B6730055DDAF /* ContentView.swift in Sources */,
 				7492B8392B50B6730055DDAF /* AppleTutorialApp.swift in Sources */,
 			);
