@@ -12,6 +12,8 @@
 		7492B83D2B50B6760055DDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7492B83C2B50B6760055DDAF /* Assets.xcassets */; };
 		7492B8402B50B6760055DDAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7492B83F2B50B6760055DDAF /* Preview Assets.xcassets */; };
 		7492B8472B50B69D0055DDAF /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492B8462B50B69D0055DDAF /* WelcomePage.swift */; };
+		7492B8492B50BE5C0055DDAF /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492B8482B50BE5C0055DDAF /* FeaturesPage.swift */; };
+		7492B84B2B50BEB10055DDAF /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492B84A2B50BEB10055DDAF /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		7492B83C2B50B6760055DDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7492B83F2B50B6760055DDAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7492B8462B50B69D0055DDAF /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		7492B8482B50BE5C0055DDAF /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		7492B84A2B50BEB10055DDAF /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				7492B83C2B50B6760055DDAF /* Assets.xcassets */,
 				7492B83E2B50B6760055DDAF /* Preview Content */,
 				7492B8462B50B69D0055DDAF /* WelcomePage.swift */,
+				7492B8482B50BE5C0055DDAF /* FeaturesPage.swift */,
+				7492B84A2B50BEB10055DDAF /* FeatureCard.swift */,
 			);
 			path = AppleTutorial;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7492B8472B50B69D0055DDAF /* WelcomePage.swift in Sources */,
+				7492B8492B50BE5C0055DDAF /* FeaturesPage.swift in Sources */,
 				7492B83B2B50B6730055DDAF /* ContentView.swift in Sources */,
 				7492B8392B50B6730055DDAF /* AppleTutorialApp.swift in Sources */,
+				7492B84B2B50BEB10055DDAF /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
