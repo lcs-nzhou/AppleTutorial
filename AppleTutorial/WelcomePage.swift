@@ -10,23 +10,29 @@ import SwiftUI
 struct WelcomePage: View {
     var body: some View {
         VStack {
-            RoundedRectangle(cornerRadius: 30)
-                .foregroundStyle(.tint)
+            ZStack {
+                RoundedRectangle(cornerRadius: 30)
+                    .foregroundStyle(.tint)
                 .frame(width: 150, height: 150)
+                Image(systemName: "figure.2.and.child.holdinghands")
+                    .font(.system(size: 70))
+                    .foregroundStyle(.white)
+            }
+            
             Text("Welcome To My App")
                .font(.title)
                .fontWeight(.semibold)
                .padding(.top)
-               .border(Color.black)
+              // .border(Color.black)
             
             Text("Descriptive text")
                 .font(.title2)
-                .border(.black)
+              //  .border(.black)
             
         }
-        .border(.orange)
+       // .border(.orange)
         .padding()
-        .border(.purple)
+       // .border(.purple)
         
     }
 }
