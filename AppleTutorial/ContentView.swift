@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    let gradiantColors = Gradient(colors: [Color.teal, Color.blue])
+    let gradiantColors = Gradient(colors: [Color.lightOrange, Color.lightPurple])
     
     var body: some View {
-        TabView{
-            WelcomePage()
-            FeaturesPage()
+        ZStack {
+            TabView{
+                WelcomePage()
+                FeaturesPage()
+            }
+             .background(LinearGradient(gradient:  gradiantColors, startPoint: .top, endPoint: .bottom))
+            .tabViewStyle(.page)
+            .foregroundStyle(.white)
         }
-        .background(Color("lightBlue"))
-        .tabViewStyle(.page)
+        
     }
 }
 
