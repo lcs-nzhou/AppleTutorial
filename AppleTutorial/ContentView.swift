@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    let gradiantColors = Gradient(colors: [Color.teal, Color.blue])
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            WelcomePage()
+            FeaturesPage()
         }
-        .padding()
+        .background(Color("lightBlue"))
+        .tabViewStyle(.page)
     }
 }
 

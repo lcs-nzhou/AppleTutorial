@@ -13,6 +13,8 @@ struct FeaturesPage: View {
             Text("Features")
                 .font(.title)
             .fontWeight(.semibold)
+            FeatureCard(iconName: "person.crop.rectangle.stack", description: "A multiline description about a feature paired with the image on the left.")
+            FeatureCard(iconName: "quote.bubble.fill", description: "Short summary")
         }
         .padding()
     }
